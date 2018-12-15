@@ -16,6 +16,7 @@ public class SilkwormController {
         silkworms.add(new Silkworm(1, "Zenon", "TumuLec"));
         silkworms.add(new Silkworm(2, "Jan", "Bambo"));
         silkworms.add(new Silkworm(3, "Janek", "Bambo"));
+        silkworms.add(new Silkworm(4, "Michal", "Bambo"));
 
         return new ResponseEntity<>(silkworms, HttpStatus.OK);
     }
