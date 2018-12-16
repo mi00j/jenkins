@@ -13,7 +13,7 @@ public class SilkwormController {
     @GetMapping("/api/silkworms")
     public ResponseEntity<List<Silkworm>> getSilkworms() {
         List<Silkworm> silkworms = new ArrayList<>();
-        silkworms.add(new Silkworm(1, "Zenon", "TumuLec"));
+        silkworms.add(new Silkworm(1, "Zenon", "Bambo"));
         silkworms.add(new Silkworm(2, "Jan", "Bambo"));
         silkworms.add(new Silkworm(3, "Janek", "Bambo"));
 		silkworms.add(new Silkworm(4, "Michal", "Bambo"));
